@@ -5,7 +5,7 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>3.4.2</version>
+		<version>3.4.5</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.abem</groupId>
@@ -51,9 +51,12 @@
 		</dependency>
 		<dependency>
     		<groupId>org.projectlombok</groupId>
-			<artifactId>lombok</artifactId>
-    		<version>1.18.36</version> 
-    		<scope>provided</scope>
+			<artifactId>lombok</artifactId> 
+		</dependency>
+		<dependency>
+			<groupId>io.github.cdimascio</groupId>
+			<artifactId>dotenv-java</artifactId>
+			<version>3.0.0</version>
 		</dependency>
 	</dependencies>
 
